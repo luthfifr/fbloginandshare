@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF10E7DD1DBB55AC00E275A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10E7DC1DBB55AC00E275A7 /* AppDelegate.swift */; };
+		CF10E7DF1DBB55AC00E275A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10E7DE1DBB55AC00E275A7 /* ViewController.swift */; };
+		CF10E7E21DBB55AC00E275A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10E7E01DBB55AC00E275A7 /* Main.storyboard */; };
+		CF10E7E41DBB55AC00E275A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF10E7E31DBB55AC00E275A7 /* Assets.xcassets */; };
+		CF10E7E71DBB55AC00E275A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF10E7E51DBB55AC00E275A7 /* LaunchScreen.storyboard */; };
+		CF10E7F21DBB55AD00E275A7 /* FBPost_Swift23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10E7F11DBB55AD00E275A7 /* FBPost_Swift23Tests.swift */; };
+		CF10E7FD1DBB55AD00E275A7 /* FBPost_Swift23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10E7FC1DBB55AD00E275A7 /* FBPost_Swift23UITests.swift */; };
+		CF10E80F1DBB595900E275A7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10E80B1DBB595900E275A7 /* Bolts.framework */; };
+		CF10E8101DBB595900E275A7 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10E80C1DBB595900E275A7 /* FBSDKCoreKit.framework */; };
+		CF10E8111DBB595900E275A7 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10E80D1DBB595900E275A7 /* FBSDKLoginKit.framework */; };
+		CF10E8121DBB595900E275A7 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF10E80E1DBB595900E275A7 /* FBSDKShareKit.framework */; };
+		CF10E8141DBB5C5200E275A7 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF10E8131DBB5C5200E275A7 /* ShareViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF10E7EE1DBB55AD00E275A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF10E7D11DBB55AC00E275A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF10E7D81DBB55AC00E275A7;
+			remoteInfo = FBPost_Swift23;
+		};
+		CF10E7F91DBB55AD00E275A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF10E7D11DBB55AC00E275A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF10E7D81DBB55AC00E275A7;
+			remoteInfo = FBPost_Swift23;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF10E7D91DBB55AC00E275A7 /* FBPost_Swift23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBPost_Swift23.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF10E7DC1DBB55AC00E275A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF10E7DE1DBB55AC00E275A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF10E7E11DBB55AC00E275A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF10E7E31DBB55AC00E275A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF10E7E61DBB55AC00E275A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF10E7E81DBB55AC00E275A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF10E7ED1DBB55AD00E275A7 /* FBPost_Swift23Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBPost_Swift23Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF10E7F11DBB55AD00E275A7 /* FBPost_Swift23Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPost_Swift23Tests.swift; sourceTree = "<group>"; };
+		CF10E7F31DBB55AD00E275A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF10E7F81DBB55AD00E275A7 /* FBPost_Swift23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBPost_Swift23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF10E7FC1DBB55AD00E275A7 /* FBPost_Swift23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBPost_Swift23UITests.swift; sourceTree = "<group>"; };
+		CF10E7FE1DBB55AD00E275A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF10E80B1DBB595900E275A7 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "FacebookSDKs-iOS-4.16.1/Bolts.framework"; sourceTree = "<group>"; };
+		CF10E80C1DBB595900E275A7 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "FacebookSDKs-iOS-4.16.1/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		CF10E80D1DBB595900E275A7 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "FacebookSDKs-iOS-4.16.1/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		CF10E80E1DBB595900E275A7 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "FacebookSDKs-iOS-4.16.1/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		CF10E8131DBB5C5200E275A7 /* ShareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		CF2A93971DBC131A0011BB0F /* FBPost_Swift23.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FBPost_Swift23.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF10E7D61DBB55AC00E275A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10E80F1DBB595900E275A7 /* Bolts.framework in Frameworks */,
+				CF10E8101DBB595900E275A7 /* FBSDKCoreKit.framework in Frameworks */,
+				CF10E8111DBB595900E275A7 /* FBSDKLoginKit.framework in Frameworks */,
+				CF10E8121DBB595900E275A7 /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10E7EA1DBB55AD00E275A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10E7F51DBB55AD00E275A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF10E7D01DBB55AC00E275A7 = {
+			isa = PBXGroup;
+			children = (
+				CF10E7DB1DBB55AC00E275A7 /* FBPost_Swift23 */,
+				CF10E7F01DBB55AD00E275A7 /* FBPost_Swift23Tests */,
+				CF10E7FB1DBB55AD00E275A7 /* FBPost_Swift23UITests */,
+				CF10E7DA1DBB55AC00E275A7 /* Products */,
+				CF10E80A1DBB595900E275A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF10E7DA1DBB55AC00E275A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF10E7D91DBB55AC00E275A7 /* FBPost_Swift23.app */,
+				CF10E7ED1DBB55AD00E275A7 /* FBPost_Swift23Tests.xctest */,
+				CF10E7F81DBB55AD00E275A7 /* FBPost_Swift23UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF10E7DB1DBB55AC00E275A7 /* FBPost_Swift23 */ = {
+			isa = PBXGroup;
+			children = (
+				CF2A93971DBC131A0011BB0F /* FBPost_Swift23.entitlements */,
+				CF10E7DC1DBB55AC00E275A7 /* AppDelegate.swift */,
+				CF10E7DE1DBB55AC00E275A7 /* ViewController.swift */,
+				CF10E7E01DBB55AC00E275A7 /* Main.storyboard */,
+				CF10E8131DBB5C5200E275A7 /* ShareViewController.swift */,
+				CF10E7E31DBB55AC00E275A7 /* Assets.xcassets */,
+				CF10E7E51DBB55AC00E275A7 /* LaunchScreen.storyboard */,
+				CF10E7E81DBB55AC00E275A7 /* Info.plist */,
+			);
+			path = FBPost_Swift23;
+			sourceTree = "<group>";
+		};
+		CF10E7F01DBB55AD00E275A7 /* FBPost_Swift23Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF10E7F11DBB55AD00E275A7 /* FBPost_Swift23Tests.swift */,
+				CF10E7F31DBB55AD00E275A7 /* Info.plist */,
+			);
+			path = FBPost_Swift23Tests;
+			sourceTree = "<group>";
+		};
+		CF10E7FB1DBB55AD00E275A7 /* FBPost_Swift23UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF10E7FC1DBB55AD00E275A7 /* FBPost_Swift23UITests.swift */,
+				CF10E7FE1DBB55AD00E275A7 /* Info.plist */,
+			);
+			path = FBPost_Swift23UITests;
+			sourceTree = "<group>";
+		};
+		CF10E80A1DBB595900E275A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF10E80B1DBB595900E275A7 /* Bolts.framework */,
+				CF10E80C1DBB595900E275A7 /* FBSDKCoreKit.framework */,
+				CF10E80D1DBB595900E275A7 /* FBSDKLoginKit.framework */,
+				CF10E80E1DBB595900E275A7 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF10E7D81DBB55AC00E275A7 /* FBPost_Swift23 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF10E8011DBB55AD00E275A7 /* Build configuration list for PBXNativeTarget "FBPost_Swift23" */;
+			buildPhases = (
+				CF10E7D51DBB55AC00E275A7 /* Sources */,
+				CF10E7D61DBB55AC00E275A7 /* Frameworks */,
+				CF10E7D71DBB55AC00E275A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBPost_Swift23;
+			productName = FBPost_Swift23;
+			productReference = CF10E7D91DBB55AC00E275A7 /* FBPost_Swift23.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF10E7EC1DBB55AD00E275A7 /* FBPost_Swift23Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF10E8041DBB55AD00E275A7 /* Build configuration list for PBXNativeTarget "FBPost_Swift23Tests" */;
+			buildPhases = (
+				CF10E7E91DBB55AD00E275A7 /* Sources */,
+				CF10E7EA1DBB55AD00E275A7 /* Frameworks */,
+				CF10E7EB1DBB55AD00E275A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF10E7EF1DBB55AD00E275A7 /* PBXTargetDependency */,
+			);
+			name = FBPost_Swift23Tests;
+			productName = FBPost_Swift23Tests;
+			productReference = CF10E7ED1DBB55AD00E275A7 /* FBPost_Swift23Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF10E7F71DBB55AD00E275A7 /* FBPost_Swift23UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF10E8071DBB55AD00E275A7 /* Build configuration list for PBXNativeTarget "FBPost_Swift23UITests" */;
+			buildPhases = (
+				CF10E7F41DBB55AD00E275A7 /* Sources */,
+				CF10E7F51DBB55AD00E275A7 /* Frameworks */,
+				CF10E7F61DBB55AD00E275A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF10E7FA1DBB55AD00E275A7 /* PBXTargetDependency */,
+			);
+			name = FBPost_Swift23UITests;
+			productName = FBPost_Swift23UITests;
+			productReference = CF10E7F81DBB55AD00E275A7 /* FBPost_Swift23UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF10E7D11DBB55AC00E275A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Imperio Teknologi Indonesia";
+				TargetAttributes = {
+					CF10E7D81DBB55AC00E275A7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2L6QV2N95T;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					CF10E7EC1DBB55AD00E275A7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2L6QV2N95T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF10E7D81DBB55AC00E275A7;
+					};
+					CF10E7F71DBB55AD00E275A7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2L6QV2N95T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF10E7D81DBB55AC00E275A7;
+					};
+				};
+			};
+			buildConfigurationList = CF10E7D41DBB55AC00E275A7 /* Build configuration list for PBXProject "FBPost_Swift23" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF10E7D01DBB55AC00E275A7;
+			productRefGroup = CF10E7DA1DBB55AC00E275A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF10E7D81DBB55AC00E275A7 /* FBPost_Swift23 */,
+				CF10E7EC1DBB55AD00E275A7 /* FBPost_Swift23Tests */,
+				CF10E7F71DBB55AD00E275A7 /* FBPost_Swift23UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF10E7D71DBB55AC00E275A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10E7E71DBB55AC00E275A7 /* LaunchScreen.storyboard in Resources */,
+				CF10E7E41DBB55AC00E275A7 /* Assets.xcassets in Resources */,
+				CF10E7E21DBB55AC00E275A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10E7EB1DBB55AD00E275A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10E7F61DBB55AD00E275A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF10E7D51DBB55AC00E275A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10E8141DBB5C5200E275A7 /* ShareViewController.swift in Sources */,
+				CF10E7DF1DBB55AC00E275A7 /* ViewController.swift in Sources */,
+				CF10E7DD1DBB55AC00E275A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10E7E91DBB55AD00E275A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10E7F21DBB55AD00E275A7 /* FBPost_Swift23Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF10E7F41DBB55AD00E275A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF10E7FD1DBB55AD00E275A7 /* FBPost_Swift23UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF10E7EF1DBB55AD00E275A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF10E7D81DBB55AC00E275A7 /* FBPost_Swift23 */;
+			targetProxy = CF10E7EE1DBB55AD00E275A7 /* PBXContainerItemProxy */;
+		};
+		CF10E7FA1DBB55AD00E275A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF10E7D81DBB55AC00E275A7 /* FBPost_Swift23 */;
+			targetProxy = CF10E7F91DBB55AD00E275A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF10E7E01DBB55AC00E275A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF10E7E11DBB55AC00E275A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF10E7E51DBB55AC00E275A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF10E7E61DBB55AC00E275A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF10E7FF1DBB55AD00E275A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF10E8001DBB55AD00E275A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF10E8021DBB55AD00E275A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FBPost_Swift23/FBPost_Swift23.entitlements;
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.16.1",
+				);
+				INFOPLIST_FILE = FBPost_Swift23/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		CF10E8031DBB55AD00E275A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FBPost_Swift23/FBPost_Swift23.entitlements;
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4.16.1",
+				);
+				INFOPLIST_FILE = FBPost_Swift23/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		CF10E8051DBB55AD00E275A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = FBPost_Swift23Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBPost_Swift23.app/FBPost_Swift23";
+			};
+			name = Debug;
+		};
+		CF10E8061DBB55AD00E275A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = FBPost_Swift23Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBPost_Swift23.app/FBPost_Swift23";
+			};
+			name = Release;
+		};
+		CF10E8081DBB55AD00E275A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = FBPost_Swift23UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FBPost_Swift23;
+			};
+			name = Debug;
+		};
+		CF10E8091DBB55AD00E275A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2L6QV2N95T;
+				INFOPLIST_FILE = FBPost_Swift23UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FBPost_Swift23;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF10E7D41DBB55AC00E275A7 /* Build configuration list for PBXProject "FBPost_Swift23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10E7FF1DBB55AD00E275A7 /* Debug */,
+				CF10E8001DBB55AD00E275A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF10E8011DBB55AD00E275A7 /* Build configuration list for PBXNativeTarget "FBPost_Swift23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10E8021DBB55AD00E275A7 /* Debug */,
+				CF10E8031DBB55AD00E275A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF10E8041DBB55AD00E275A7 /* Build configuration list for PBXNativeTarget "FBPost_Swift23Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10E8051DBB55AD00E275A7 /* Debug */,
+				CF10E8061DBB55AD00E275A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF10E8071DBB55AD00E275A7 /* Build configuration list for PBXNativeTarget "FBPost_Swift23UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF10E8081DBB55AD00E275A7 /* Debug */,
+				CF10E8091DBB55AD00E275A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF10E7D11DBB55AC00E275A7 /* Project object */;
+}
