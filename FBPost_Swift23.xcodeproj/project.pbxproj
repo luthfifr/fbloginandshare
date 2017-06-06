@@ -231,6 +231,7 @@
 					CF10E7D81DBB55AC00E275A7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -241,12 +242,14 @@
 					CF10E7EC1DBB55AD00E275A7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF10E7D81DBB55AC00E275A7;
 					};
 					CF10E7F71DBB55AD00E275A7 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2L6QV2N95T;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CF10E7D81DBB55AC00E275A7;
 					};
@@ -468,7 +471,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -486,7 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -504,7 +507,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBPost_Swift23.app/FBPost_Swift23";
 			};
 			name = Debug;
@@ -523,7 +526,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBPost_Swift23.app/FBPost_Swift23";
 			};
 			name = Release;
@@ -537,7 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = FBPost_Swift23;
 			};
 			name = Debug;
@@ -551,7 +554,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.imperioteknologiindonesia.FBPost-Swift23UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = FBPost_Swift23;
 			};
 			name = Release;
