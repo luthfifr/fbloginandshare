@@ -11,14 +11,15 @@ import FBSDKLoginKit
 import FBSDKShareKit
 
 class ShareViewController: UIViewController, FBSDKLoginButtonDelegate, FBSDKSharingDelegate {
+
     var emailUser: String!
     let loginManager: FBSDKLoginManager = FBSDKLoginManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
-        label.center = CGPoint(x: 132, y: 284)
+        let label = UILabel(frame: CGRect(x: self.view.frame.size.width/3, y: self.view.frame.size.height/4, width: 200, height: 21))
+        //label.center = self.view.center//CGPoint(x: 140, y: 284) //132
         label.textAlignment = NSTextAlignment.center
         label.text = emailUser! //"I'am a test label"
         label.sizeToFit()
@@ -49,7 +50,7 @@ class ShareViewController: UIViewController, FBSDKLoginButtonDelegate, FBSDKShar
         btn_logOut.addTarget(self, action: #selector(ShareViewController.loginButtonDidLogOut(_:)), forControlEvents: .TouchUpInside)
         view.addSubview(btn_logOut)*/
         let loginButton = FBSDKLoginButton.init()
-        loginButton.frame = CGRect(x: 132, y: 400, width: 100, height: 30)
+        loginButton.frame = CGRect(x: self.view.frame.size.width/3, y: self.view.frame.size.height/1.5, width: 100, height: 30)
         loginButton.delegate = self
         self.view.addSubview(loginButton)
     }
@@ -60,7 +61,7 @@ class ShareViewController: UIViewController, FBSDKLoginButtonDelegate, FBSDKShar
     }
     
     //FBSDKLoginButtonDelegate
-    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: NSError!) {
+    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!){
         
     }
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
@@ -73,7 +74,7 @@ class ShareViewController: UIViewController, FBSDKLoginButtonDelegate, FBSDKShar
     func sharer(_ sharer: FBSDKSharing!, didCompleteWithResults results: [AnyHashable: Any]) {
         print(results)
     }
-    func sharer(_ sharer: FBSDKSharing!, didFailWithError error: NSError!) {
+    func sharer(_ sharer: FBSDKSharing!, didFailWithError error: Error!) {
         print("sharer NSError")
         print(error)
     }

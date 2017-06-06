@@ -12,6 +12,7 @@ import FBSDKLoginKit
 class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     var emailuser = ""
+    var userEmail = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +27,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         
         if (FBSDKAccessToken.current()) != nil {
             let FBToken = FBSDKAccessToken.current().tokenString
-            print("FB Token di viewdidload: \(FBToken)")
+            print("FB Token di viewdidload: \(String(describing: FBToken))")
             let loginButton = FBSDKLoginButton.init()
             loginButton.center = self.view.center
             loginButton.delegate = self
@@ -57,14 +58,16 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
                 
                 if ((error) != nil)
                 {
-                    print("Error FBSDKGraphRequest: \(error)")
+                    print("Error FBSDKGraphRequest: \(String(describing: error))")
                 }
                 else
                 {
-                    print("fetched user: \(result)")
-                    let userEmail : NSString = result.value(forKey: "email") as! NSString
-                    print("User Email is: \(userEmail)")
-                    self.emailuser = userEmail as String
+                    print("fetched user: \(String(describing: result))")
+                    if let email = result as? [AnyHashable: Any]{
+                         self.userEmail = email["email"] as! String
+                    }//result.value(forKey: "email") as! NSString
+                    print("User Email is: \(String(describing: self.userEmail))")
+                    self.emailuser = self.userEmail
                     print("Nilai var emailuser di dalem handler = \(self.emailuser)")
                     self.performSegue(withIdentifier: "loggingIn", sender: self)
                 }
@@ -80,7 +83,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         }
     }
     
-    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: NSError!) {
+    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!){
         let loginManager: FBSDKLoginManager = FBSDKLoginManager()
         if(FBSDKAccessToken.current() != nil){
             print("FB Token fungsi loginButtonComplete: \(FBSDKAccessToken.current().tokenString)")
